@@ -43,15 +43,15 @@ export default function HeroSection() {
               </div>
             </motion.div>
 
-            {/* Big heading — red text kept as it matches original site branding */}
+            {/* Big heading — updated to brand gradient for unified color combination */}
             <motion.h1
               variants={fadeInUp}
               className="font-black font-display leading-[0.92] tracking-tight mb-3"
             >
-              <span className="block text-5xl sm:text-6xl lg:text-7xl text-red-500 uppercase">
+              <span className="block text-5xl sm:text-6xl lg:text-7xl gradient-brand-text uppercase">
                 CAPILLARY
               </span>
-              <span className="block text-5xl sm:text-6xl lg:text-7xl text-red-500 uppercase">
+              <span className="block text-5xl sm:text-6xl lg:text-7xl gradient-brand-text uppercase">
                 RISING DAMP
               </span>
               <span className="block text-2xl sm:text-3xl lg:text-4xl text-white uppercase mt-2">
